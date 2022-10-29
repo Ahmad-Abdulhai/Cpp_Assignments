@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-     for( int i =0 ; i<=5 ; i++)
+     for( int i =0 ; i<5 ; i++)
      {
-         for(int j=0 ; j<=9 ; j++)
+         for(int j=0 ; j<9 ; j++)
          {
-             if((i+j)>=5  &&  (i+3)>=j)
+             if((i+j)>=4  &&  (i+4)>=j)
            cout<<"*";
             else
                 cout<<" ";
