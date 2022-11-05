@@ -11,7 +11,7 @@ int fibonacci(int num)
 
 
 int main()
-{  int num , i;
+{  int num , i=0;
     cout<<"Enter your number of fibonacci: "<<endl;
     cin>>num;
     cout<<"----------------------------------------------"<<endl;
